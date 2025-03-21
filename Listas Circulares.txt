@@ -1,0 +1,31 @@
+Listas Circulares
+1. Inserción de un nodo en una lista circular
+Crear un nuevo nodo.
+
+Si la lista está vacía, el nuevo nodo apunta a sí mismo.
+
+Si la lista no está vacía, el nuevo nodo apunta al primer nodo.
+
+El último nodo de la lista apunta al nuevo nodo.
+
+2. Eliminación de un nodo en una lista circular
+Encontrar el nodo a eliminar.
+
+Actualizar el puntero next del nodo anterior para que apunte al nodo siguiente.
+
+Si el nodo eliminado era el único, asegurarse de que la lista quede vacía.
+
+3. Recorrer una lista circular sin entrar en un bucle infinito
+Usar un nodo de inicio como referencia y detenerse cuando se vuelva a alcanzar ese nodo.
+
+4. Aplicaciones de listas circulares
+Implementación de colas circulares.
+
+Algoritmos de round-robin.
+
+Buffers circulares en sistemas operativos y redes.
+
+5. Convertir una lista doblemente enlazada en circular
+Hacer que el puntero next del último nodo apunte al primer nodo.
+
+Hacer que el puntero prev del primer nodo apunte al último nodo.

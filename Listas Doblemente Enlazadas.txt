@@ -1,0 +1,45 @@
+Listas Doblemente Enlazadas
+1. Diferencia entre una lista simplemente enlazada y una lista doblemente enlazada
+Lista simplemente enlazada: Cada nodo tiene un puntero que apunta al siguiente nodo en la lista.
+
+Lista doblemente enlazada: Cada nodo tiene dos punteros: uno que apunta al siguiente nodo y otro que apunta al nodo anterior.
+
+2. Ventajas y desventajas de una lista doblemente enlazada
+Ventajas:
+
+Permite recorrer la lista en ambas direcciones (hacia adelante y hacia atrás).
+
+Facilita la eliminación de nodos, ya que se puede acceder al nodo anterior directamente.
+
+Desventajas:
+
+Requiere más memoria debido al puntero adicional en cada nodo.
+
+Operaciones de inserción y eliminación son ligeramente más complejas.
+
+3. Inserción de un nodo en una lista doblemente enlazada
+Crear un nuevo nodo.
+
+Asignar el puntero next del nuevo nodo al nodo siguiente.
+
+Asignar el puntero prev del nuevo nodo al nodo anterior.
+
+Actualizar el puntero next del nodo anterior para que apunte al nuevo nodo.
+
+Actualizar el puntero prev del nodo siguiente para que apunte al nuevo nodo.
+
+4. Cambios en los punteros al eliminar un nodo
+Si el nodo a eliminar tiene un nodo anterior, actualizar el puntero next del nodo anterior para que apunte al nodo siguiente.
+
+Si el nodo a eliminar tiene un nodo siguiente, actualizar el puntero prev del nodo siguiente para que apunte al nodo anterior.
+
+Liberar la memoria del nodo eliminado.
+
+5. Eficiencia de una lista doblemente enlazada frente a un array
+Es más eficiente usar una lista doblemente enlazada cuando:
+
+Se necesitan inserciones y eliminaciones frecuentes en cualquier posición de la lista.
+
+No se conoce el tamaño de los datos de antemano.
+
+Se requiere flexibilidad en la manipulación de datos.
